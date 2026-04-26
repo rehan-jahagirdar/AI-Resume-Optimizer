@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ai-gradient" x1="8" y1="6" x2="24" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#3B82F6" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  
+  <path d="M16 6C16 6 16 14 24 16C16 18 16 26 16 26C16 26 16 18 8 16C16 14 16 6 16 6Z" fill="url(#ai-gradient)" filter="url(#glow)"/>
+</svg>
